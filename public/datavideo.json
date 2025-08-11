@@ -1,0 +1,79 @@
+{
+  "videos": [
+    {
+      "anime": "XION GACOR ANIME",
+      "judul": "S1E01 \u2014 Awal Pertarungan",
+      "video": "https://videodelivery.net/00000000000000000000000000000001/manifest/video.m3u8",
+      "thumb": "/thumbs/xion-ep1.svg",
+      "sinopsis": "Seorang pemuda menemukan kekuatan misterius.",
+      "deskripsi": "Episode pembuka memperkenalkan dunia Xion.",
+      "genre": [
+        "Action",
+        "Fantasy"
+      ],
+      "eps": 1,
+      "subtitles": [
+        {
+          "label": "Indonesia",
+          "lang": "id",
+          "src": "/subs/xion-gacor-anime-ep1-id.vtt"
+        },
+        {
+          "label": "English",
+          "lang": "en",
+          "src": "/subs/xion-gacor-anime-ep1-en.vtt"
+        }
+      ]
+    },
+    {
+      "anime": "XION GACOR ANIME",
+      "judul": "S1E02 \u2014 Jejak Artefak",
+      "video": "https://videodelivery.net/00000000000000000000000000000002/manifest/video.m3u8",
+      "thumb": "/thumbs/xion-ep2.svg",
+      "sinopsis": "Mengejar petunjuk ke reruntuhan timur.",
+      "deskripsi": "World-building + karakter baru.",
+      "genre": [
+        "Action",
+        "Fantasy"
+      ],
+      "eps": 2,
+      "subtitles": [
+        {
+          "label": "Indonesia",
+          "lang": "id",
+          "src": "/subs/xion-gacor-anime-ep2-id.vtt"
+        },
+        {
+          "label": "English",
+          "lang": "en",
+          "src": "/subs/xion-gacor-anime-ep2-en.vtt"
+        }
+      ]
+    },
+    {
+      "anime": "Samurai Breeze",
+      "judul": "Movie \u2014 The Silent Valley",
+      "video": "https://videodelivery.net/00000000000000000000000000000003/manifest/video.m3u8",
+      "thumb": "/thumbs/samurai-movie.svg",
+      "sinopsis": "Ronin menebus masa lalu.",
+      "deskripsi": "Film berdurasi penuh.",
+      "genre": [
+        "Drama",
+        "Historical"
+      ],
+      "eps": 0,
+      "subtitles": [
+        {
+          "label": "Indonesia",
+          "lang": "id",
+          "src": "/subs/samurai-breeze-movie-id.vtt"
+        },
+        {
+          "label": "English",
+          "lang": "en",
+          "src": "/subs/samurai-breeze-movie-en.vtt"
+        }
+      ]
+    }
+  ]
+}

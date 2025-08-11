@@ -1,0 +1,22 @@
+{
+  "name": "anime-site",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "hls.js": "^1.5.8",
+    "next": "14",
+    "react": "18",
+    "react-dom": "18",
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4"
+  }
+}

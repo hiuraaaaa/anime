@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#eaf2ff; --card:#ffffff; --text:#0f172a; --muted:#6b7280;
+  --accent:#3b82f6; --accent-hover:#2563eb; --border:#e5e7eb;
+}
+
+body{ @apply bg-[var(--bg)] text-[var(--text)]; }
+.card{ @apply bg-white border border-[var(--border)] rounded-2xl shadow-soft p-5; }
+.btn{ @apply inline-flex items-center justify-center font-semibold rounded-xl px-4 py-2 border transition; }
+.btn-primary{ @apply bg-brand-500 text-white border-brand-500 hover:bg-brand-600; }
+.btn-secondary{ @apply bg-white text-brand-600 border-brand-500 hover:bg-brand-50; }
+
+
+/* Dark theme */
+.dark body { @apply bg-slate-950 text-slate-100; }
+.dark .card { @apply bg-slate-900 border-slate-800; }
+.dark .btn { @apply border-slate-700; }
+.dark .btn-secondary { @apply bg-slate-900 text-blue-300 border-blue-700 hover:bg-slate-800; }
+.dark header { @apply shadow-soft; }
