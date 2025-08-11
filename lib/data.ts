@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+export type Subtitle = { label: string; lang: string; src: string };
+
 export type VideoItem = {
   anime: string;
   judul: string;
@@ -10,6 +12,7 @@ export type VideoItem = {
   deskripsi?: string;
   genre?: string[];
   eps: number;
+  subtitles?: Subtitle[];     // ✅ tambahkan ini
 };
 export type VideoItemWithSlug = VideoItem & { animeSlug: string };
 
